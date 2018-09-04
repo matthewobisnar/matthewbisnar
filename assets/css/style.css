@@ -5,8 +5,8 @@
     display: none !important;
   }
 
-html, body { height: 100%; position: relative;}
-body {overflow-x: hidden}
+html, body { height: 100%; position: relative; }
+body {overflow-x: hidden; max-width: 100%;}
 .bg-black { background-color: #1a1a1a !important }
 .custom-bg-dark { background: #222222 !important}
 .text-custom-dark { color:  #222222 !important }
@@ -31,7 +31,7 @@ a.text-light:hover, a.text-custom-dark:hover { color: #E91E63 !important}
 .technical-skills-section { background:  #222222 !important;}
 
 .about-card {background: #f7f4f4; margin-bottom: 2rem}
-.about-card:hover { background: #E91E63; color: #ffff; transition: all 1s; cursor: pointer}
+.about-card:hover {background: #E91E63; color: #ffff; transition: all 1s; cursor: pointer}
 .card-custom {margin-bottom: 3rem}
 
 /* HEADER CONTENT */
