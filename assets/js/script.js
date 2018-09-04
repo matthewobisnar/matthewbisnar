@@ -78,7 +78,7 @@ $(window).ready(function(){
     //load content
     $('.spinner').fadeOut('slow').promise().done(function(){
         $(this).remove();
-        toastr["success"]("HI There! Welcome to my Site. Unfornately it's underdevelopment. but you can still browse basic content of it. Thank you for visiting. ")
+        toastr["success"]("HI! Welcome to my site. Unfornately it's underdevelopment. but you can still browse basic content of it. Thank you for visiting. ")
         $('.header-content').addClass('show-class').removeClass('hide-class');
     });
 
