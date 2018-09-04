@@ -5,7 +5,7 @@
     display: none !important;
   }
 
-html, body { height: 100%; position: relative; overflow-x:hidden !important; }
+html, body { height: 100%; position: relative; }
 body {overflow-x: hidden; max-width: 100%;}
 .bg-black { background-color: #1a1a1a !important }
 .custom-bg-dark { background: #222222 !important}
@@ -22,7 +22,7 @@ p.body {color : #1a1a1a !important}
 a.text-light:hover, a.text-custom-dark:hover { color: #E91E63 !important}
 .author-name {margin-bottom: 2.5rem}
 .author-list {margin-bottom: 2.5rem}
-
+.header-section {overflow-x:hidden !important;}
 .services-section {background: #f7f4f4 !important}
 .services-content {margin-bottom: 3rem}
 .about-content { margin-bottom: 4rem !important }
