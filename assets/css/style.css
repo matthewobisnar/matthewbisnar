@@ -1,0 +1,78 @@
+/* Title : Custom css style */
+
+/* Global style */
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-    ng-cloak {
+    display: none !important;
+  }
+
+html, body { height: 100%; position: relative;}
+body {overflow-x: hidden}
+.bg-black { background-color: #1a1a1a !important }
+.custom-bg-dark { background: #222222 !important}
+.text-custom-dark { color:  #222222 !important }
+.custom-border-light { border: solid 1px rgb(255, 255, 255) !important}
+.custom-nav-item {padding-left:1.3rem; padding-right: 1.3rem}
+.color-pink {color: #E91E63 !important }
+p.body {color : #1a1a1a !important}
+.btn-custom { border-radius: 0px !important}
+
+/* Header Section */
+.header-content {background:  #222222 !important; height: 88.35%; margin-bottom: 0rem !important; border-radius: 0px;}
+.about-section {background: #ffffff !important}
+a.text-light:hover, a.text-custom-dark:hover { color: #E91E63 !important}
+.author-name {margin-bottom: 2.5rem}
+.author-list {margin-bottom: 2.5rem}
+
+.services-section {background: #f7f4f4 !important}
+.services-content {margin-bottom: 3rem}
+.about-content { margin-bottom: 4rem !important }
+.section-title-border {border-bottom: #E91E63 solid 2px}
+.title {padding: 1rem}
+.technical-skills-section { background:  #222222 !important;}
+
+.about-card {background: #f7f4f4; margin-bottom: 2rem}
+.about-card:hover { background: #E91E63; color: #ffff; transition: all 1s; cursor: pointer}
+.card-custom {margin-bottom: 3rem}
+
+/* HEADER CONTENT */
+.hide-class{ display: none}
+.show-class{ display: block;}
+.arrow-down { cursor: pointer;}
+.btn-radius {border-radius: 50%; border-color: transparent !important;}
+.btn-radius:hover {background-color: transparent; border-color: #6c757d !important;}
+.jumbotron {padding: 2rem 0.5rem; }
+
+/* Scroll to top */
+.scrollbtn { display: none; position: fixed; bottom: 60px; right: 30px; z-index: 99; cursor: pointer; border-radius: 50%;}
+.scrollbtn:hover { background-color: transparent }
+
+.img-container { position: relative !important; color: #fff;}
+.hoverly { cursor: pointer; position: absolute; width: 100%; top: 0%; padding-top: 32%; opacity: 0; height: 100%; background: #E91E63 }
+.img-container .hoverly:hover { opacity: 0.5; filter: alpha(opacity=50); transition: all 0.5s; }
+#secondary-logo-header { display:none !important; }
+
+@media screen and (max-width: 975px) {
+    .nav-ul {
+        display: block !important;
+        text-align: center;
+    }
+
+    .header-content {height: auto !important;}
+    #secondary-logo-header { display:block !important;}
+}
+
+/*  Ripple */
+
+.ripple { width: 0; height: 0; border-radius: 50%; background: rgba(255, 255, 255, 0.02); transform: scale(0); position: absolute; opacity: 1;}
+.rippleEffect { animation: rippleDrop 3s linear; -webkit-animation: rippleDrop 3s linear; -moz-animation: rippleDrop 3s linear; -o-animation:rippleDrop 3s linear; }
+  
+@keyframes rippleDrop {
+    100% {
+      transform: scale(2);
+      -webkit-transform: scale(2);
+      -moz-transform: scale(2);
+      -ms-transform: scale(2);
+      -o-transform: scale(2);
+      opacity: 0;
+    }
+  }
