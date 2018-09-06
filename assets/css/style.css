@@ -55,7 +55,9 @@ a.text-light:hover, a.text-custom-dark:hover { color: #E91E63 !important}
         display: block !important;
         text-align: center;
     }
-
+    body {
+      overflow-x: hidden !important;
+    }
     .header-content {height: auto !important;}
     #secondary-logo-header { display:block !important;}
 }
