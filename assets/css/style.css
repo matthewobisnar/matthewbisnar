@@ -62,8 +62,8 @@ a.text-light:hover, a.text-custom-dark:hover { color: #E91E63 !important}
 
 /*  Ripple */
 
-.ripple { width: 0; height: 0; border-radius: 50%; background: rgba(255, 255, 255, 0.02); transform: scale(0); position: absolute; opacity: 1;}
-.rippleEffect { animation: rippleDrop 3s linear; -webkit-animation: rippleDrop 3s linear; -moz-animation: rippleDrop 3s linear; -o-animation:rippleDrop 3s linear; }
+.ripple { width: 0; height: 0; border-radius: 50%; background: rgba(255, 255, 255, 0.02); transform: scale(0); position: absolute; opacity: 1; overflow-x: hidden}
+.rippleEffect { animation: rippleDrop 3s linear; -webkit-animation: rippleDrop 3s linear; -moz-animation: rippleDrop 3s linear; -o-animation:rippleDrop 3s linear; overflow-x: hidden }
   
 @keyframes rippleDrop {
     100% {
