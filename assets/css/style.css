@@ -15,7 +15,7 @@ body {overflow-x: hidden; max-width: 100%;}
 .color-pink {color: #E91E63 !important }
 p.body {color : #1a1a1a !important}
 .btn-custom { border-radius: 0px !important}
-
+.minapage {overflow-x: hidden !important}
 /* Header Section */
 .header-content {background:  #222222 !important; height: 88.35%; margin-bottom: 0rem !important; border-radius: 0px;}
 .about-section {background: #ffffff !important}
