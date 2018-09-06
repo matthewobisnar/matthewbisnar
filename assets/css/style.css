@@ -6,7 +6,7 @@
   }
 
 html, body { height: 100%; position: relative; }
-body {overflow-x: hidden; max-width: 100%;}
+body {max-width: 100%;}
 .bg-black { background-color: #1a1a1a !important }
 .custom-bg-dark { background: #222222 !important}
 .text-custom-dark { color:  #222222 !important }
@@ -28,7 +28,7 @@ a.text-light:hover, a.text-custom-dark:hover { color: #E91E63 !important}
 .section-title-border {border-bottom: #E91E63 solid 2px}
 .title {padding: 1rem}
 .technical-skills-section { background:  #222222 !important;}
-
+.navbar-custom {overflow-x:hidden !important;}
 .about-card {background: #f7f4f4; margin-bottom: 2rem}
 .about-card:hover {background: #E91E63; color: #ffff; transition: all 1s; cursor: pointer}
 .card-custom {margin-bottom: 3rem}
@@ -64,8 +64,8 @@ a.text-light:hover, a.text-custom-dark:hover { color: #E91E63 !important}
 
 /*  Ripple */
 
-.ripple { width: 0; height: 0; border-radius: 50%; background: rgba(255, 255, 255, 0.02); transform: scale(0); position: absolute; opacity: 1; overflow-x: hidden}
-.rippleEffect { animation: rippleDrop 3s linear; -webkit-animation: rippleDrop 3s linear; -moz-animation: rippleDrop 3s linear; -o-animation:rippleDrop 3s linear; overflow-x: hidden }
+.ripple { width: 0; height: 0; border-radius: 50%; background: rgba(255, 255, 255, 0.02); transform: scale(0); position: absolute; opacity: 1;}
+.rippleEffect { animation: rippleDrop 3s linear; -webkit-animation: rippleDrop 3s linear; -moz-animation: rippleDrop 3s linear; -o-animation:rippleDrop 3s linear;}
   
 @keyframes rippleDrop {
     100% {
