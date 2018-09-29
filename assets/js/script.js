@@ -166,7 +166,7 @@ $(window).ready(function(){
           width: buttonWidth,
           height: buttonHeight,
           top: y + 'px',
-          left: x + 'px'
+          left: x + 'px',
         }).addClass("rippleEffect");
     
       });
