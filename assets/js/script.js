@@ -162,6 +162,7 @@ $(window).ready(function(){
         var y = e.pageY -  $(this).offset().top - buttonHeight / 2;
         
         // Add the ripples CSS and start the animation
+        $(".header-section").css({overflowX: 'hidden'})
         $(".ripple").css({
           width: buttonWidth,
           height: buttonHeight,
