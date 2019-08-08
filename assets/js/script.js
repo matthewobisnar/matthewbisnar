@@ -96,7 +96,7 @@ $(window).ready(function(){
     // cover name loader..
     var init =0;
     var string = "I AM Matthew Bisnar";
-    var description = "I'm a Student and a self-taught designer, and web and desktop app. developer from Philippines. I love designing & building user friendly application.";
+    var description = "I'm a Student, a self-taught designer and web/desktop app. developer from Philippines. I love designing & building user friendly web applications.";
     
     function animateText() {
         if(init < string.length) {
